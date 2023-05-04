@@ -17,12 +17,13 @@ h1 {
 .container {
   position: relative;
   width: 1100px;
-  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
   cursor: pointer;
+  display: inline;
+  display: flex;
 }
 .container .card {
   position: relative;
@@ -36,6 +37,7 @@ h1 {
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   margin: 1.5rem;
+  overflow: auto;
 }
 
 .container .card:hover {
