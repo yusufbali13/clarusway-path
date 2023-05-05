@@ -12,6 +12,11 @@ h1 {
   color: black;
   font-size: 4rem;
   text-align: center;
+  transition: all 3s;
+}
+
+h1:hover {
+  color: rgb(255, 136, 0);
 }
 
 .container {
