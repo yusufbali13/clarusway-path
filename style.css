@@ -18,7 +18,7 @@ h1 {
   padding: 30px;
   cursor: pointer;
   display: inline;
-  float: unset;
+  display: flex;
 }
 .container .card {
   position: relative;
@@ -32,11 +32,10 @@ h1 {
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   margin: 1.5rem;
-  width: 100rem;
 }
 
 .container .card:hover {
-  height: 500px;
+  height: 480px;
 }
 
 .container .card .imgBx {
@@ -67,4 +66,23 @@ h1 {
   visibility: visible;
   opacity: 1;
   margin-top: -55px;
+}
+
+div h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 0.6rem;
+  background-color: rgb(80, 72, 173);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 2rem;
+}
+
+button:hover {
+  color: beige;
+  opacity: 0.9;
 }
