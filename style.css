@@ -72,7 +72,7 @@ div h2 {
   font-size: 2rem;
 }
 
-button {
+a {
   padding: 0.6rem;
   background-color: rgb(80, 72, 173);
   color: rgb(255, 255, 255);
@@ -82,7 +82,7 @@ button {
   box-shadow: 2rem;
 }
 
-button:hover {
-  color: beige;
+a:hover {
+  color: yellow;
   opacity: 0.9;
 }
