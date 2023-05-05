@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: bisque;
+  background-color: #bebe;
 }
 
 h1 {
@@ -72,17 +72,25 @@ div h2 {
   font-size: 2rem;
 }
 
-a {
+button {
   padding: 0.6rem;
   background-color: rgb(80, 72, 173);
-  color: rgb(255, 255, 255);
   cursor: pointer;
   margin-top: 1rem;
   border-radius: 8px;
-  box-shadow: 2rem;
 }
 
-a:hover {
-  color: yellow;
+button a:hover {
   opacity: 0.9;
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  width: 120px;
+  height: 40px;
 }
