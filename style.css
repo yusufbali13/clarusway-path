@@ -15,15 +15,10 @@ h1 {
 }
 
 .container {
-  position: relative;
-  width: 1100px;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 30px;
   cursor: pointer;
   display: inline;
-  display: flex;
+  float: unset;
 }
 .container .card {
   position: relative;
@@ -37,11 +32,11 @@ h1 {
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   margin: 1.5rem;
-  overflow: auto;
+  width: 100rem;
 }
 
 .container .card:hover {
-  height: 420px;
+  height: 500px;
 }
 
 .container .card .imgBx {
@@ -49,8 +44,6 @@ h1 {
   width: 260px;
   height: 260px;
   top: -60px;
-  left: 20px;
-  z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .container .card .imgBx img {
@@ -67,11 +60,11 @@ h1 {
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
+  margin-bottom: 10rem;
 }
 
 .container .card:hover .content {
   visibility: visible;
   opacity: 1;
-  margin-top: -40px;
-  transition-delay: 0.1s;
+  margin-top: -55px;
 }
