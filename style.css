@@ -14,10 +14,10 @@ body {
 
 h1 {
   font-family: "Bungee Shade", cursive;
-  color: black;
+  color: white;
   font-size: 4rem;
   text-align: center;
-  transition: all 3s;
+  transition: all 2s;
 }
 
 h1:hover {
@@ -29,6 +29,8 @@ h1:hover {
   cursor: pointer;
   display: inline;
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
 }
 .container .card {
   position: relative;
@@ -42,6 +44,7 @@ h1:hover {
   box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
   transition: 0.3s ease-in-out;
   margin: 1.5rem;
+  margin-top: 5rem;
 }
 
 .container .card:hover {
